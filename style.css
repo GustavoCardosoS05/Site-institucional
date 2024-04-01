@@ -45,17 +45,16 @@ body{
 
 .banner .container p{
     font-size: 30px;
-    width: 200px;
 }
 .social{
     height: auto;
     background-color: #e5e5e5;
+    padding: 40px 0;
    
 }
 .social .container .card{
     width: 200px;
     color: #222;
-    padding: 40px 0;
     display: flex;
     text-align: center;
     align-items: center;
