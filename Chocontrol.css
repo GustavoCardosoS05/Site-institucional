@@ -36,8 +36,8 @@ body{
 }
 
 .banner {
-    height: 300px;
-    background-image: url(imagens/imagens/bg-jelly-fish-para_outras_pags.png);
+    height: 200px;
+    background-image: url(https://media.istockphoto.com/id/1276645382/pt/foto/chocolate-assortment-background-top-view-of-different-kinds-of-chocolate.jpg?s=612x612&w=0&k=20&c=cqIVH2bzYBMIFmd87S3441X_5DLhk1p8pgjKsULcl1c=);
 }
 
 .banner .container {
@@ -49,7 +49,7 @@ body{
 }
 .social{
     height: auto;
-    background-color: #e5e5e5;
+    background-color: #46010181;
     padding: 40px 0;
    
 }
@@ -70,5 +70,9 @@ body{
 .social .container .card h4{
     font-size: 24px;
 }
-
-
+h4 {
+ color: #fff;
+}
+p {
+ color :#fff
+} 
