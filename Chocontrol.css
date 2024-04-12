@@ -6,13 +6,13 @@
 }
 
 body{
-    background-color: #222;
-    color: #fff;
+    background-color: #ffffffdc;
+    color: #ffffffca;
 }
 
-.header {
+.header {   
     width: 100%;
-    border-bottom: 2px solid #32b9cd;
+    border-bottom: 2px solid #fdfcfc;
     height: 50px;
 }
 
@@ -23,12 +23,14 @@ body{
     margin: auto;
     justify-content: space-between;
     align-items: center;
+    color: #fff;
 }
 
 .navbar {
+    align-items: center;
     display: flex;
     list-style: none;
-    
+    color: rgb(76, 1, 1);
 }
 
 .navbar li{
@@ -36,8 +38,9 @@ body{
 }
 
 .banner {
+    font-family: 'Times New Roman', Times, serif;
     height: 200px;
-    background-image: url(https://media.istockphoto.com/id/1276645382/pt/foto/chocolate-assortment-background-top-view-of-different-kinds-of-chocolate.jpg?s=612x612&w=0&k=20&c=cqIVH2bzYBMIFmd87S3441X_5DLhk1p8pgjKsULcl1c=);
+    background-image: url(imagens/PrimeiraArea.png);
 }
 
 .banner .container {
@@ -48,10 +51,11 @@ body{
     font-size: 30px;
 }
 .social{
+    
     height: auto;
     background-color: #46010181;
-    padding: 40px 0;
-   
+    padding: 40px;
+   background-image: url();
 }
 .social .container .card{
     width: 200px;
@@ -65,6 +69,7 @@ body{
 }
 .social .container .card img{
     width: 150px;
+    height: 200px;
 }
 
 .social .container .card h4{
@@ -76,3 +81,6 @@ h4 {
 p {
  color :#fff
 } 
+.social2 {
+    height: 200px;
+}
