@@ -14,6 +14,8 @@ body{
     width: 100%;
     border-bottom: 2px solid #fdfcfc;
     height: 50px;
+    position: fixed;
+    background-color: #222;
 }
 
 .container {
@@ -23,14 +25,14 @@ body{
     margin: auto;
     justify-content: space-between;
     align-items: center;
-    color: #fff;
+    color: #222;
 }
 
 .navbar {
     align-items: center;
     display: flex;
     list-style: none;
-    color: rgb(76, 1, 1);
+    color: antiquewhite;
 }
 
 .navbar li{
@@ -41,6 +43,8 @@ body{
     font-family: 'Times New Roman', Times, serif;
     height: 200px;
     background-image: url(imagens/PrimeiraArea.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .banner .container {
@@ -53,7 +57,7 @@ body{
 .social{
     
     height: auto;
-    background-color: #46010181;
+    background-color: #460101ce;
     padding: 40px;
    background-image: url();
 }
@@ -80,7 +84,56 @@ h4 {
 }
 p {
  color :#fff
+
+}
+.card{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
 } 
 .social2 {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+.img-card {
+    width: 200px;
+    /* height: 250px; */
+} 
+.rodape{
+    width: 100%;
     height: 200px;
+    background-color:#222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    width: 300px;
+    height: 60px;
+    background-image: url(imagens/Cópia\ de\ Protótipo\ Donas\ .png);
+    background-repeat: no-repeat;
+}
+.rede-social {
+    display: flex;
+    /* justify-content: ; */
+    margin-top: 15px;
+}
+.child-rodape{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+.margem{
+    margin-left: 10px;
+    margin-right: 10px;
+    /* color: #222; */
+}
+.img-rede {
+    width: 35px;
+    height: 35px;
 }
